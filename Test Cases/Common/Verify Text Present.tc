@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Text Present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c586f69-e5f1-4298-9686-37662161156d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e1386286-93ae-420b-9979-66d6b24f6298</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+</TestCaseEntity>

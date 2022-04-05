@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11a7ebd3-eaf1-46d6-8594-14f57ef9fed1</testCaseGuid>
+   <variable>
+      <defaultValue>'admin@ezactive.com'</defaultValue>
+      <description></description>
+      <id>3d39386a-d397-4830-9024-4b5b964fdf6c</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>7a68b452-e072-419a-a355-f8e08f5ea04e</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

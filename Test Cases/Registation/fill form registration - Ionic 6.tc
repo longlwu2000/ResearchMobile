@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fill form registration - Ionic 6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f55e0fd5-70ac-4d39-b137-fbde40440366</testCaseGuid>
+   <variable>
+      <defaultValue>'Name'</defaultValue>
+      <description></description>
+      <id>03f313fb-5a4f-4f87-8e55-b440b945d719</id>
+      <masked>false</masked>
+      <name>surname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other'</defaultValue>
+      <description></description>
+      <id>d246cd1e-b9ae-4415-92f7-be694949a5e1</id>
+      <masked>false</masked>
+      <name>othernames</name>
+   </variable>
+   <variable>
+      <defaultValue>'02-May-2012'</defaultValue>
+      <description></description>
+      <id>cb5f62e0-4743-4718-83e1-f135b98d7094</id>
+      <masked>false</masked>
+      <name>dob</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>756cc721-23c2-42b8-934d-dc955caa04c8</id>
+      <masked>false</masked>
+      <name>img_player</name>
+   </variable>
+   <variable>
+      <defaultValue>'Male'</defaultValue>
+      <description></description>
+      <id>fe426301-e35b-4bc6-bf14-bf74e71bbb88</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+   <variable>
+      <defaultValue>'HKID'</defaultValue>
+      <description></description>
+      <id>26ff0bf1-3496-42d7-8ec6-88074ad3923c</id>
+      <masked>false</masked>
+      <name>hkid_type</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>8a9c5130-abeb-4fc1-b3af-534860d38259</id>
+      <masked>false</masked>
+      <name>img_doc</name>
+   </variable>
+   <variable>
+      <defaultValue>'Asia P'</defaultValue>
+      <description></description>
+      <id>943ee048-e123-404f-aa84-0b50db3564c3</id>
+      <masked>false</masked>
+      <name>club</name>
+   </variable>
+</TestCaseEntity>

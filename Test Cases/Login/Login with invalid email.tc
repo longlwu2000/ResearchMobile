@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e97d55b0-419e-4fd7-ada1-fe6f459ba9ca</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>73e2fa6d-ac48-438b-a6d4-2eb42e066bf9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>55a0e835-18c0-4838-abd2-ca1fbd63d2db</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

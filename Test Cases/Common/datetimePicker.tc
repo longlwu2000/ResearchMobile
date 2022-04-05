@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>datetimePicker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>558944eb-0c75-49da-aa7d-6a5920e7103c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6082ffe7-1085-4f92-bcbb-bdff1a7d9efd</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>'20-Mar-2012'</defaultValue>
+      <description></description>
+      <id>de26e9f4-f3bb-40d4-8d7e-869634a10b36</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Player</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b16daeac-effe-4723-8c2e-8d8754b0591b</testCaseGuid>
+   <variable>
+      <defaultValue>'Name'</defaultValue>
+      <description></description>
+      <id>9f2d6c67-9bfb-43e2-a81c-1576d85c6761</id>
+      <masked>false</masked>
+      <name>surname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other'</defaultValue>
+      <description></description>
+      <id>9e57de71-cfe7-4aed-ad4c-c95adcb5b7b1</id>
+      <masked>false</masked>
+      <name>othernames</name>
+   </variable>
+   <variable>
+      <defaultValue>'02-Jan-2018'</defaultValue>
+      <description></description>
+      <id>83296224-8142-431f-b0cf-780c3122d5d7</id>
+      <masked>false</masked>
+      <name>dob</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>3a2994e8-a7c5-42d0-8d64-f0a02b17acb7</id>
+      <masked>false</masked>
+      <name>img_player</name>
+   </variable>
+   <variable>
+      <defaultValue>'Male'</defaultValue>
+      <description></description>
+      <id>56ffaf28-dc6c-4cef-ad9a-cd561eee653e</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+   <variable>
+      <defaultValue>'HKID'</defaultValue>
+      <description></description>
+      <id>4e7af6eb-2f08-4339-9b74-2533c88c1ac2</id>
+      <masked>false</masked>
+      <name>hkid_type</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>754d88c9-291b-43fe-8e8b-d92b3a06f9ad</id>
+      <masked>false</masked>
+      <name>img_doc</name>
+   </variable>
+   <variable>
+      <defaultValue>'Asia P'</defaultValue>
+      <description></description>
+      <id>e7e64cde-b17c-4ded-bce3-3614c1efe0e2</id>
+      <masked>false</masked>
+      <name>club</name>
+   </variable>
+</TestCaseEntity>

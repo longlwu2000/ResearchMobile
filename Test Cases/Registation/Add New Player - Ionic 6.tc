@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Player - Ionic 6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ae0e84b-6398-4e0c-9f88-24f2e907f496</testCaseGuid>
+   <variable>
+      <defaultValue>'Name'</defaultValue>
+      <description></description>
+      <id>97bbbcab-458a-4269-a2e7-1455b21f3836</id>
+      <masked>false</masked>
+      <name>surname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other'</defaultValue>
+      <description></description>
+      <id>86c8952f-dc98-43a9-b8e2-6a384ef5ef92</id>
+      <masked>false</masked>
+      <name>othernames</name>
+   </variable>
+   <variable>
+      <defaultValue>'02-Jan-2018'</defaultValue>
+      <description></description>
+      <id>68fa2062-9118-4b69-b747-193b24ac4061</id>
+      <masked>false</masked>
+      <name>dob</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>116a4d9a-5d71-4114-a643-b19805053c82</id>
+      <masked>false</masked>
+      <name>img_player</name>
+   </variable>
+   <variable>
+      <defaultValue>'Male'</defaultValue>
+      <description></description>
+      <id>b3d7d917-c6ce-471c-b31b-68f4e77e14c4</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+   <variable>
+      <defaultValue>'HKID'</defaultValue>
+      <description></description>
+      <id>9ec1483d-ca2d-44d5-97c4-42ea98a483c0</id>
+      <masked>false</masked>
+      <name>hkid_type</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>db833d55-4ea0-48a0-bd85-52b75784ce39</id>
+      <masked>false</masked>
+      <name>img_doc</name>
+   </variable>
+   <variable>
+      <defaultValue>'Asia P'</defaultValue>
+      <description></description>
+      <id>17ab8a4f-96af-4b24-9d37-576d0f20d634</id>
+      <masked>false</masked>
+      <name>club</name>
+   </variable>
+</TestCaseEntity>

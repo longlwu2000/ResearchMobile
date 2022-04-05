@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>datetimePicker - Inoic 6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ec27c11-131a-4525-93f3-70bb9b77ba2c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>deab0d81-ad8c-4842-9e2a-c5c30c41dd01</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>'20-Mar-2012'</defaultValue>
+      <description></description>
+      <id>e9d9f93c-b4b4-4c2e-b7b7-5229fb96ab7e</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+</TestCaseEntity>

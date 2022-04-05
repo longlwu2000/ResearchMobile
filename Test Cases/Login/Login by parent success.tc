@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login by parent success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f16f66b-b005-4b7c-99c5-45d157b417f6</testCaseGuid>
+   <variable>
+      <defaultValue>'hongfoong25@gmail.com'</defaultValue>
+      <description></description>
+      <id>b7375081-53fe-48f2-a9fd-31306342879a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>231747c2-422f-4db8-981b-662f6ead00e9</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>
