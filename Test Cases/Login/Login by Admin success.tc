@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login by Admin success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e202b7a1-92fb-47d9-aef5-aaf27734c39f</testCaseGuid>
+   <variable>
+      <defaultValue>'admin@ezactive.com'</defaultValue>
+      <description></description>
+      <id>6aa4098c-2514-425d-931d-2ce82eda20f9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>16dcdde0-3353-45b5-9544-30e34cb0b2ac</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>
