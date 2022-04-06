@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>New Mobile Object</name>
+   <name>inpInfor by name</name>
    <tag></tag>
-   <elementGuidId>f6cf9d62-50f6-42b1-8651-d2c8ec2d4cd0</elementGuidId>
+   <elementGuidId>a4997515-dcde-408b-9f7b-dddd4ff43951</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.view.View[contains(@content-desc,'person')]</locator>
+   <locator>//android.view.View[contains(@text,'${name}')]/..//android.widget.EditText</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

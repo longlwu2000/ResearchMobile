@@ -17,25 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'Surname']), surname, 2)
-//
-//Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'names']), othernames, 2)
-//
-//if (img_player) {
-//    Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'UPLOAD IMAGE']), 2)
-//
-//    Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'Photos']), 2)
-//
-//    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-//
-//    Mobile.tap(findTestObject('Common/imgInStorgae'), 2)
-//
-//    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-//
-//    Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'DONE']), 2)
-//
-//   
-//}
+Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'Surname']), surname, 2)
+
+Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'names']), othernames, 2)
+
+if (img_player) {
+    Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'UPLOAD IMAGE']), 2)
+
+    Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'Photos']), 2)
+
+    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Common/imgInStorgae'), 2)
+
+    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'DONE']), 2)
+
+   
+}
 Mobile.scrollToText('Club', FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('Common/datetimePicker'), [('title') : 'DOB', ('date') : dob], FailureHandling.STOP_ON_FAILURE)
 

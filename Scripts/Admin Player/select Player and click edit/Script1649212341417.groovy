@@ -17,13 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login by Admin success'), [('email') : 'admin@ezactive.com', ('pass') : '12345'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Admin Player/into Admin Player'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'menu']), 2)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.tap(findTestObject('Common/textIsPresent by Text', [('text') : 'Player']), 2)
-Mobile.tap(findTestObject('Common/find OJ by ccessibility id', [('name') : 'person outline Admin Player']), 2)
+Mobile.setText(findTestObject('Common/inpSearch'), player_name, 2)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Common/view By Text', [('text') : '+']), 15)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+y = Mobile.getElementTopPosition(findTestObject('Common/btnIsPresent by Text', [('text') : 'Edit']), 3)
+
+x = Mobile.getElementLeftPosition(findTestObject('Common/btnIsPresent by Text', [('text') : 'Edit']), 3)
+
+Mobile.tapAtPosition(x + 10, y + 10)
+
+Mobile.delay(3)
 

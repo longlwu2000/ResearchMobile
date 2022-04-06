@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Player with Surname empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54547776-208e-4346-91f4-83f80434c041</testCaseGuid>
+   <variable>
+      <defaultValue>'Long'</defaultValue>
+      <description></description>
+      <id>8ae3f6b4-05b3-4a20-984c-f8e4287ef6f8</id>
+      <masked>false</masked>
+      <name>player_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7de683c1-8f67-4f46-a0e6-6eaf2843bf04</id>
+      <masked>false</masked>
+      <name>surname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Edit'</defaultValue>
+      <description></description>
+      <id>b52385dd-e868-4f11-8255-80c0b75eace9</id>
+      <masked>false</masked>
+      <name>othernames</name>
+   </variable>
+   <variable>
+      <defaultValue>'20-Mar-2012'</defaultValue>
+      <description></description>
+      <id>1602f2f2-517c-4104-94ab-3736f2d054da</id>
+      <masked>false</masked>
+      <name>dob</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>34e34643-07fa-44fc-99f8-63d01b0629f8</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>64d91532-1026-4001-abf8-5a1a7f7608b0</id>
+      <masked>false</masked>
+      <name>hkid_type</name>
+   </variable>
+   <variable>
+      <defaultValue>'30-Apr-2022'</defaultValue>
+      <description></description>
+      <id>0896fb0e-9e3e-4bbe-a4e1-57c55ccf03b7</id>
+      <masked>false</masked>
+      <name>expiry_date</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>select Player and click edit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43d9c912-a26e-4732-b1ce-bb0f4cf953f8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c802b258-bd99-470a-a018-b06a74f9891d</id>
+      <masked>false</masked>
+      <name>player_name</name>
+   </variable>
+</TestCaseEntity>

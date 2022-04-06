@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify View Present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffa5169a-b920-4754-abcd-de686e4620cb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a94a4e1b-d138-4389-b94f-5c24973ba4b6</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+</TestCaseEntity>
