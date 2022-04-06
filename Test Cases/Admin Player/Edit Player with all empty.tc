@@ -41,7 +41,7 @@
       <name>gender</name>
    </variable>
    <variable>
-      <defaultValue>2</defaultValue>
+      <defaultValue>1</defaultValue>
       <description></description>
       <id>3e3d7442-4102-45e1-959e-70fdf348d0ac</id>
       <masked>false</masked>

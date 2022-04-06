@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/login'), [('email') : email, ('pass') : pass], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Login/imgEzlogo'), 3)
-
+while(!Mobile.verifyElementExist(findTestObject('Login/imgEzlogo'), 3,FailureHandling.OPTIONAL))
+{
+	Mobile.tap(findTestObject('Login/btnLogin'), 2)
+}
