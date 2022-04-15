@@ -20,10 +20,21 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Login/Login by Admin success'), [('email') : 'admin@ezactive.com', ('pass') : '12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'menu']), 2)
+WebUI.delay(2)
 
-//Mobile.tap(findTestObject('Common/textIsPresent by Text', [('text') : 'Player']), 2)
-Mobile.tap(findTestObject('Common/find OJ by accessibility id', [('name') : 'person outline Admin Player']), 2)
+Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'menu']), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Menu/btnUserProfile'), 0)
+
+Mobile.tap(findTestObject('User Profile/btnUserProfile'), 0)
+
+Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'Surname']), '', 0)
+
+Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'Other']), '', 0)
+
+Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'Email']), '', 0)
+
+Mobile.tap(findTestObject('User Profile/btnSave'), 0)
+
+WebUI.callTestCase(findTestCase('Common/Verify Text Present'), [('text') : 'Please enter a email'], FailureHandling.STOP_ON_FAILURE)
 

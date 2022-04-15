@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login by Admin success'), [('email') : 'admin@ezactive.com', ('pass') : '12345'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Register/Parent register'), [('surname') : '', ('othername') : '', ('email') : ''], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'menu']), 2)
+WebUI.callTestCase(findTestCase('Common/Verify Text Present'), [('text') : 'enter a surname'], FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.tap(findTestObject('Common/textIsPresent by Text', [('text') : 'Player']), 2)
-Mobile.tap(findTestObject('Common/find OJ by accessibility id', [('name') : 'person outline Admin Player']), 2)
+WebUI.callTestCase(findTestCase('Common/Verify Text Present'), [('text') : 'enter a other name'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/Verify Text Present'), [('text') : 'enter a email'], FailureHandling.STOP_ON_FAILURE)
 

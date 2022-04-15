@@ -17,13 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login by Admin success'), [('email') : 'admin@ezactive.com', ('pass') : '12345'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/connect'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'menu']), 2)
+Mobile.tap(findTestObject('Register/btnSignUp'), 0)
 
-//Mobile.tap(findTestObject('Common/textIsPresent by Text', [('text') : 'Player']), 2)
-Mobile.tap(findTestObject('Common/find OJ by accessibility id', [('name') : 'person outline Admin Player']), 2)
+Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'Surname (Parent/Guest)']), surname, 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'Other names (Parent/Guest)']), othername, 0)
+
+Mobile.setText(findTestObject('Registation/inpInfomation', [('name') : 'Email']), email, 0)
+
+Mobile.tap(findTestObject('Register/btnCheckboxTerm'), 0)
+
+Mobile.tap(findTestObject('Common/btnIsPresent by Text', [('text') : 'SIGN UP']), 0)
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login by parent success'), [('email') : 'luuhoanglong508@gmail.com', ('pass') : 'fb564'], 
+WebUI.callTestCase(findTestCase('Login/Login by parent success'), [('email') : 'thaolele@gmail.com', ('pass') : '12345'], 
     FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Common/btnIsPresent by Text'), 2)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit user profile invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbff0b74-96c6-4192-8898-976cb93f647c</testCaseGuid>
+</TestCaseEntity>

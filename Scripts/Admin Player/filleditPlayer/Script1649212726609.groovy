@@ -37,11 +37,15 @@ switch (hkid_type) {
     case 2:
         Mobile.tap(findTestObject('Admin Player/rdoById', [('id') : 'type_1']), 2)
 
+		Mobile.scrollToText('expiry')
+		
         Mobile.setText(findTestObject('Admin Player/inpInfor by ID', [('id') : 'expiry_date']), expiry_date, 5)
 
         break
     case 3:
         Mobile.tap(findTestObject('Admin Player/rdoById', [('id') : 'type_2']), 2)
+		
+		Mobile.scrollToText('expiry')
 
         Mobile.setText(findTestObject('Admin Player/inpInfor by ID', [('id') : 'expiry_date']), expiry_date, 5)
 

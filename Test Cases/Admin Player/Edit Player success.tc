@@ -13,7 +13,7 @@
       <name>player_name</name>
    </variable>
    <variable>
-      <defaultValue>'AdamE'</defaultValue>
+      <defaultValue>'Long'</defaultValue>
       <description></description>
       <id>852b0def-9089-42c1-b8c0-a96292141dea</id>
       <masked>false</masked>

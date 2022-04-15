@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Parent register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51058b9f-ab18-48a9-a1dc-249cbe11a978</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd38c5c0-5b06-449c-92cd-fd2e471fa1a1</id>
+      <masked>false</masked>
+      <name>surname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7915a666-3dab-452a-a317-55b6cc3099c3</id>
+      <masked>false</masked>
+      <name>othername</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c9aa185-c5c3-4755-8d6c-fcb3feaf8e2e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
