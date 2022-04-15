@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Player</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3e8739f-6fa0-48e6-b235-0687d33bdaec</testCaseGuid>
+   <variable>
+      <defaultValue>'Thao'</defaultValue>
+      <description></description>
+      <id>971f1c9f-f8a0-4a63-8c12-6cb087fb1171</id>
+      <masked>false</masked>
+      <name>player_name</name>
+   </variable>
+</TestCaseEntity>
